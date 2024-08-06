@@ -9,6 +9,9 @@
         <div>
           <ul class="flex space-x-12">
             <li><NuxtLink to="/">Home</NuxtLink></li>
+            <li>
+              <NuxtLink to="/create">Create</NuxtLink>
+            </li>
             <li><NuxtLink to="/about">About</NuxtLink></li>
             <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           </ul>
@@ -24,7 +27,7 @@ const title = useState('title', () => 'Nuxt 3 Blog')
 </script>
 
 <style>
-    .router-link-active {
-        font-weight: bold,
-    }
+.router-link-active {
+  font-weight: bold;
+}
 </style>
